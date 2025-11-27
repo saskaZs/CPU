@@ -1,7 +1,7 @@
 # Excel CPU with 8-Bit Architecture
 This repository contains the an Excel file emulating a simple 8-bit architecture CPU ***(code/cpu8bit.xlsx)***, the description of the usable instruction set ***(docs/Excel_CPU_Instruction_Set_Manual.docx)*** for it and three examples implementing classic algorithms ***(docs/Excel_CPU_Programs.docx)***. The CPU operates on 8-bit registers with modulo 256 arithmetic and features a specific set of flags and control flow mechanisms.
 
-The CPU utilizes four primary 8-bit general-purpose registers and a byte-addressable RAM system.
+The CPU utilizes four primary 8-bit general-purpose registers and a byte-addressable RAM system. 
 - Registers: AX, BX, CX, DX (Range: 0–255).
 - Program Counter (PC): Selects the next instruction to execute.
 - RAM: Byte-addressable storage.
